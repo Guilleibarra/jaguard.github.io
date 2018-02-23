@@ -1,0 +1,43 @@
+.menu {
+	position: fixed;
+	padding: 5px 0;
+	width: 500px;
+	height: auto;
+	background-color: rgba(48, 48, 48, 0.9);
+	margin-top: 5%;
+	margin-left: 5%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+.menu input {
+	background-color: #DB3030;
+	padding: 8px;
+	color: white; 
+}
+
+img  {
+	width: 100%; 
+	height: 100%;
+}
+
+@media screen and (max-width: 600px){
+  img {
+   min-width: 600px;
+   max-height: auto;
+
+ }
+}
+
+
+@media screen and (max-width: 600px){
+  .menu {
+   width: 60%;
+   max-height: auto;
+
+ }
+}
